@@ -8,7 +8,7 @@ function NavBar() {
     </div>
     
     <ul className="text-black font-bold w-full">
-        <li  className="py-3 px-4 bg-orange-300 text-orange-400 rounded-md">
+        <li  className="py-3 px-4 bg-orange-300 text-orange-600 rounded-md">
             Restaurants
         </li>
     </ul>
