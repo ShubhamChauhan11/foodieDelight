@@ -3,7 +3,7 @@ import { IoCloseSharp } from "react-icons/io5";
 
 function Modal({ isModalOpen, setIsModalOpen, setToEditData, children }) {
   return (
-    <div className="w-[30%]  absolute top-[20%] left-[35%] bg-white rounded-lg overflow-y-auto no-scrollbar ">
+    <div className="w-[30%]  absolute top-[20%] left-[35%] bg-white rounded-lg overflow-y-auto no-scrollbar shadow-lg ">
       {children}
 
       <IoCloseSharp
